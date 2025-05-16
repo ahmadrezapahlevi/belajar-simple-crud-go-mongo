@@ -14,7 +14,7 @@ var DB *mongo.Database
 // ConnectDB menyambungkan ke MongoDB Atlas
 func ConnectDB() {
 	// Ganti dengan URI milik kamu
-	uri := "mongodb+srv://authreza:authreza@cluster0.vf8z1wr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+	uri := ""
 
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()
