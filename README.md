@@ -1,0 +1,1 @@
+pertama kali make golang
